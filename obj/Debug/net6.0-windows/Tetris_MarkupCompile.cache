@@ -1,5 +1,5 @@
 ﻿Tetris
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\thanh\OneDrive\Máy tính\Tetris\Tetris\App.xaml
 11407045341
 
-171797975104
+15-1089955138
 1941709816142
 MainWindow.xaml;
 
-True
+False
 

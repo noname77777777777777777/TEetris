@@ -20,9 +20,29 @@ namespace Tetris
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly ImageSource[] imageSource = new ImageSource[]
+        {
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-Empty.png",UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-I.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-J.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-L.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-O.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-S.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-T.png", UriKind.Relative)),
+            new BitmapImage(new Uri("C:\\Users\\thanh\\OneDrive\\Máy tính\\Tetris\\Tetris\\Asset\\Block-Z.png", UriKind.Relative)),
+        };
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
